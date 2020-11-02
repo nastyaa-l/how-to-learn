@@ -164,7 +164,7 @@
   font-weight: normal;
 }
 
-.digits__table{
+.table{
   width: 1100px;
   margin: auto;
   padding-top: 60px;
@@ -173,33 +173,34 @@
   justify-content: space-between;
 }
 
-.digits__table_cell{
+.table__cell{
   width: 250px;
+  list-style-type: none;
 }
 
-.digits__table_cell_s{
+.table__cell_s{
   margin-bottom: 60px;
 }
 
-.digits_table_heading{
+.table_heading{
   margin-bottom: 20px;
 }
 
-.digits__table_heading_name{
+.table_heading_name{
   margin: auto;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.digits__table_text_content{
+.table_text_content{
   margin: 20px auto 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.digits__table_text_content_comment{
+.table_text_content_comment{
   margin-top: 20px;
 }
 
