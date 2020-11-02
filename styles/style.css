@@ -118,15 +118,15 @@
   flex-direction: column;
 }
 
-.two-columns__paragraph_2{
-  margin:30px 0;
-}
-
 .two-columns__paragraph{
   margin: auto;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.two-columns__paragraph:nth-child(2){
+  margin:30px 0;
 }
 
 .two-columns__paragraph_content_world{
