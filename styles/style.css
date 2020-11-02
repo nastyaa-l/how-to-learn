@@ -150,13 +150,13 @@
   font-weight: bold;
 }
 
-.digits__section-subtitle{
+.section-subtitle{
   width: 60%;
   margin: 20px auto 0;
 
 }
 
-.digits__section-subtitle_name{
+.section-subtitle_name{
   margin: auto;
   text-align: center;
   line-height: 34px;
