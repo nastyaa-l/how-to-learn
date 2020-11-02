@@ -182,26 +182,22 @@
   margin-bottom: 60px;
 }
 
-.table_heading{
+.table__heading{
   margin-bottom: 20px;
 }
 
-.table_heading_name{
+.table__heading_name{
   margin: auto;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table_text_content{
+.table__text_content{
   margin: 20px auto 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table_text_content_comment{
-  margin-top: 20px;
 }
 
 .feynman{
