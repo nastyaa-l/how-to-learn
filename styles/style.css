@@ -167,7 +167,8 @@
 .table{
   width: 1100px;
   margin: auto;
-  padding-top: 60px;
+  padding-top: 60px; /* написано было, что это лишнее совйство, но таким образом я обозначила отступ между заголовком и таблицей,
+  если я уберу его, то уберется и отступ*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -203,7 +204,7 @@
 }
 
 .feynman__block{
-  height: 790px;
+  min-height: 790px;
   width: 100%;
   position: relative;
   display: inline-block;
@@ -288,7 +289,7 @@ z-index: 3;
 
 .section-title__name_theme_dark{
   margin: auto;
-  height: 1.15;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   color: white;
@@ -349,7 +350,7 @@ z-index: 3;
   right: -210px;
   width: 877px;
   height: 877px;
-  background: url(../images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   z-index: 2;
 }
 
@@ -361,17 +362,15 @@ z-index: 3;
 
 .footer__columns
 {
-  min-height: 350px;
+  min-height: 250px;
   display: flex;
   justify-content: space-between;
-  flex-basis: 711px;
-  margin-bottom: 40px;
   width: 90%;
   margin: auto;
 }
 
 .footer__column_content_copyright{
-  width: 50%;
+  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -382,17 +381,9 @@ z-index: 3;
   height: 35px;
 }
 
-.footer__author{
-  margin:18px 0;
-}
-
 .footer__column-heading{
-  margin-bottom: 20px;
-}
-
-.footer__column-heading_name{
+  margin: 0 auto 20px;
   color: white;
-  margin: auto;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -407,12 +398,12 @@ z-index: 3;
 
 }
 
-.footer__author_content{
-  margin: auto;
+.footer__author{
   line-height: 25px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   color: white;
+  margin:18px 0;
 }
 
 .footer__column-links_content{
