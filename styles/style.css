@@ -22,7 +22,7 @@
 /*.block_header_margin{
   margin-right:64px;
 }*/
-.header__logo{
+.logo_place_header{
   width: 183px;
   height: 32px;
   position: absolute;
@@ -398,7 +398,7 @@ z-index: 3;
   justify-content: space-between;
 }
 
-.footer__logo{
+.logo_place_footer{
   width: 183px;
   height: 35px;
 }
