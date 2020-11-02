@@ -38,27 +38,21 @@
   margin-left: 64px;
   width: 730px;
   z-index: 5;
-}
-
-.header__title_name{
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   z-index: 7;
-  margin: auto;
 }
+
 
 .header__subtitle{
   position: absolute;
   left: 64px;
   bottom: 30px;
   width: 390px; /* В брифе была указана ширина 388, но тогда текст переносится и не встаетв ширину блока*/
-}
-.subtitle__header_content{
-line-height: 25px;
-font-size: 18px;
-z-index: 7;
-margin: auto;
+  line-height: 25px;
+  font-size: 18px;
+  z-index: 7;
 }
 
 .header__main-illustration{
