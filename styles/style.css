@@ -16,6 +16,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -47,7 +48,7 @@
 
 .header__subtitle{
   position: absolute;
-  left: 64px;
+  right: 64px;
   bottom: 30px;
   width: 390px; /* В брифе была указана ширина 388, но тогда текст переносится и не встаетв ширину блока*/
   line-height: 25px;
@@ -338,7 +339,7 @@ z-index: 3;
   position: absolute;
   top:0;
   right: -210px;
-  background-size: 877px;
+  background-size: contain;
   width: 877px;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
