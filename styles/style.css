@@ -48,7 +48,7 @@
 
 .header__subtitle{
   position: absolute;
-  right: 64px;
+  left: 64px;
   bottom: 30px;
   width: 390px; /* В брифе была указана ширина 388, но тогда текст переносится и не встаетв ширину блока*/
   line-height: 25px;
@@ -197,13 +197,9 @@
 .feynman{
   background-color: #f2f2f2;
   padding-top: 100px;
-}
-
-.feynman__block{
   min-height: 790px;
   width: 100%;
   position: relative;
-  border: 1px green solid;
 }
 
 .feynman__title{
