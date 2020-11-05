@@ -53,6 +53,7 @@
   line-height: 25px;
   font-size: 18px;
   z-index: 7;
+  margin: 0 auto;
 }
 
 .header__main-illustration{
@@ -125,7 +126,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph:nth-child(2){
+.two-columns__paragraph:nth-child(2n){
   margin:30px 0;
 }
 
@@ -140,10 +141,6 @@
 .section-title{
   width: 60%;
   margin: auto;
-}
-
-.section-title_name{
-  margin:auto;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -153,11 +150,6 @@
 .section-subtitle{
   width: 60%;
   margin: 20px auto 0;
-
-}
-
-.section-subtitle_name{
-  margin: auto;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -199,37 +191,29 @@
   min-height: 790px;
   width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .feynman__title{
   width: 648px;
-  margin: 0 auto 70px;
-  z-index: 2;
-  display: flex;
-}
-
-.feynman__title_name{
-  margin: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 42;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  z-index: 2;
 }
 
 .feynman__subtitle{
   margin:70px auto 0;
-  z-index: 4;
-  display: flex;
-}
-
-.feynman__subtitle_name{
-  margin: auto;
   text-align: center;
   line-height: 51px;
   font-weight: normal;
   font-size: 36px;
   z-index: 40;
+  position: relative;
 }
 
 .feynman__link{
@@ -237,19 +221,12 @@ position: absolute;
 top: 50%;
 right: 48px;
 z-index: 30;
-display: flex;
-}
-
-.feynman__link_content{
-margin: auto;
 color: #2f80ed;
 text-decoration: none;
 line-height: 51px;
 font-size: 36px;
 font-weight: normal;
-z-index: 30;
 }
-
 
 .feynman__picture{
   position: absolute;
@@ -260,11 +237,6 @@ z-index: 30;
   z-index: 1;
 }
 
-.feynman__picture_content{
-  position: absolute;
-  display: flex;
-  z-index: 1;
-}
 .kaufman{
   background-color: #1f1f1f;
   position: relative;
@@ -273,36 +245,25 @@ z-index: 30;
 }
 
 .section-title_theme_dark{
-margin: 90px auto 0;
-width: 60%;
-z-index: 3;
-}
-
-.section-title__name_theme_dark{
-  margin: auto;
+  margin: 90px auto 0;
+  width: 60%;
+  z-index: 3;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   color: white;
   text-align: center;
-  z-index: 3;
 }
 
 .section-subtitle_theme_dark{
-
-  margin: auto;
   width: 60%;
   z-index: 3;
-}
-
-.section-subtitle__name_theme_dark{
   margin: 20px auto 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   color: white;
   text-align: center;
-  z-index: 3;
 }
 
 .table_theme_dark{
@@ -408,13 +369,6 @@ z-index: 3;
 
 .footer__list-item{
   list-style-type: none;
-}
-
-
-.footer__social-icons{
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 16px;
 }
 
 ul {
