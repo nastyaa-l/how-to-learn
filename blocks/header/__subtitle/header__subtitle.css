@@ -1,0 +1,10 @@
+.header__subtitle{
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 390px; /* В брифе была указана ширина 388, но тогда текст переносится и не встаетв ширину блока*/
+  line-height: 25px;
+  font-size: 18px;
+  z-index: 7;
+  margin: 0 auto;
+}
